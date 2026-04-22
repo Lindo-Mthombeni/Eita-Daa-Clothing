@@ -1,5 +1,9 @@
 @import "tailwindcss";
 
+:root {
+  font-size: 18px;
+}
+
 @layer base {
   h1 { @apply text-6xl font-bold; }
   h2 { @apply text-3xl font-bold; }
